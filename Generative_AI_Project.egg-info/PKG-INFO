@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 Metadata-Version: 2.1
+=======
+Metadata-Version: 2.2
+>>>>>>> b5d5d19eb96ae84ae28dafa659e00f99ad8c3ead
 Name: Generative-AI-Project
 Version: 0.0.0
 Author: Siva kiran
 Author-email: sivakiran7171@gmail.com
 License-File: LICENSE
+<<<<<<< HEAD
+=======
+Dynamic: author
+Dynamic: author-email
+>>>>>>> b5d5d19eb96ae84ae28dafa659e00f99ad8c3ead

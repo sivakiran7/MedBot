@@ -14,8 +14,11 @@ list_of_files =[
     "test.py"
 ]
 
+<<<<<<< HEAD
 # project is converted to package for reusability sharing and maintainability
 
+=======
+>>>>>>> b5d5d19eb96ae84ae28dafa659e00f99ad8c3ead
 
 for filepath in list_of_files:
     filepath = Path(filepath)
