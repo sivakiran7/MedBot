@@ -9,4 +9,4 @@ Gemini pro API KEY : https://aistudio.google.com/app/apikey?_gl=1*1nmeuux*_ga*MT
 ## Hugging Face Model
 Model : https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 
-# make sure to modify the number of dimension in the pine cone db is similar to the dimensions of the model
+#### make sure to modify the number of dimension in the pine cone db is similar to the dimensions of the model
