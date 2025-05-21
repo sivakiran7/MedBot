@@ -6,7 +6,7 @@ langchain_openai
 sentence-transformers
 =======
 sentence-transformers==2.2.2
->>>>>>> b5d5d19eb96ae84ae28dafa659e00f99ad8c3ead
+
 pypdf
 python-dotenv
 pinecone[grpc]
