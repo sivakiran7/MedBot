@@ -38,8 +38,8 @@ retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":
 
     
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash-preview-04-17",
-    google_api_key = "AIzaSyCYaIDh7ODn0n8F88JbVhRjIYqSo_ZJTbk",
+    model="gemini-2.0-flash-lite",
+    google_api_key = "AIzaSyDIturponZDsL14_L4zsmfM9qwlki4o_6s",
     temperature=0.6,
     max_tokens=500
 )
@@ -56,8 +56,8 @@ rag_chain = create_retrieval_chain(retriever, question_answer_chain)
 
 
 # --- UI ---
-st.title(" 👨🏼‍⚕️ Medi Bot")
-st.caption("How Can i help you")
+st.title("🩺 Medi Bot")
+st.subheader("How Can i help you 🧑‍⚕️")
 
 # Display chat history
 if "messages" not in st.session_state:
@@ -76,7 +76,7 @@ if user_query:
     st.session_state.messages.append({"role": "user", "content": user_query})
 
     # Get response
-    with st.spinner("Thinking..."):
+    with st.spinner("Please Wait.."):
         response = rag_chain.invoke({"input": user_query})
         answer = response.get("answer", "Sorry, I couldn't find an answer.")
 

@@ -1,0 +1,6 @@
+services:
+  medbot:
+    image: medbot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
